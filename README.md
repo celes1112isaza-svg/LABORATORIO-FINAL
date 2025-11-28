@@ -91,15 +91,11 @@ Este método funciona de la siguiente manera:
 
 2. GRAFIQUE LOS COSTOS VS LAS EPOCHS , QUE CONCLUSION PUEDE SACAR?.
 
-<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/ca861dfc-5ae6-478f-a93b-70bb70aca077" />
+<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/5406ce36-6e11-45d9-9a33-a64f8fa382e2" />
 
 *Conclusiones:*
 
-* El costo comienza bajo y se mantiene en un rango muy pequeño (entre 0.01 y 0.08), lo que indica que el modelo comete pocos errores desde el inicio.
 
-* Hay fluctuaciones pequeñas, pero no hay picos ni caídas bruscas, lo que sugiere que el modelo es estable y no está sobreajustando.
-
-* El hecho de que el costo nunca suba por encima de 0.09 implica que el modelo nunca se equivoca en más del 9% de los casos.
 
 
 
