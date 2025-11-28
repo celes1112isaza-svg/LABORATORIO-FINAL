@@ -95,8 +95,11 @@ Este método funciona de la siguiente manera:
 
 *Conclusiones:*
 
-
-
+-  El modelo no comete muchos errores: el costo se mantiene por debajo de 15 en todas las épocas, lo cual es bajo considerando que hay 150 muestras.
+  
+- Hay fluctuaciones visibles: el número de errores sube y baja en distintas épocas, lo que indica que el modelo está ajustando su frontera de decisión constantemente.
+  
+- No hay una tendencia clara de descenso sostenido, lo que sugiere que el modelo está reentrenándose desde cero en cada época
 
 
 3. GRAFIQUE EL ACCURACY VS LAS EPOCHS, QUE CONCLUSION PUEDE SACAR?
