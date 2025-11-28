@@ -27,8 +27,13 @@ El regresor lineal con *SKLEARN*,  funciona aplicando el método de mínimos cua
 
 2. GRAFIQUE LOS COSTOS VS LAS EPOCHS.
 
-   
-3. PRESENTE LAS METRICAS DE REGRESION CON SU RESPECTIVA INTERPRETACION (R2, MSE, MAE...Y LAS QUE ESTAN ESPECIFICADAS EN EL NOTEBOOK).
+   <img width="687" height="475" alt="image" src="https://github.com/user-attachments/assets/78402fc5-05ba-4521-9e17-775a787ae5fe" />
+
+   *Conclusión:*
+
+   El MSE comienza alto y baja rápidamente en las primeras épocas, el modelo aprende rapidamente al inicio ajustando los pesos de forma efectiva. 
+
+4. PRESENTE LAS METRICAS DE REGRESION CON SU RESPECTIVA INTERPRETACION (R2, MSE, MAE...Y LAS QUE ESTAN ESPECIFICADAS EN EL NOTEBOOK).
 
 - R², mide la proporción de la variabilidad de la variable objetivo que el modelo logra explicar, basicamente dice qué tan bien el modelo explica los datos.
 
@@ -59,8 +64,9 @@ El regresor lineal con *SKLEARN*,  funciona aplicando el método de mínimos cua
 - MAPE (Error porcentual absoluto medio),  es un promedio del error, pero en porcentaje. Entre más bajo sea el valor que arroja mejor.
 
   *Análisis de las metricas obtenidas en nuestro modelo*
-  
 
+  <img width="656" height="358" alt="image" src="https://github.com/user-attachments/assets/dcc148a6-eeec-4851-8e60-a91078d343f3" />
+  
 *PARTE 2:*
 
 1. CONSULTAR LA IMPLEMENTACION DEL PERCEPTRON SIMPLE CON SKLEARN.
