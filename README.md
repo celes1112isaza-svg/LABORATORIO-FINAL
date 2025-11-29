@@ -91,28 +91,23 @@ Este método funciona de la siguiente manera:
 
 2. GRAFIQUE LOS COSTOS VS LAS EPOCHS , QUE CONCLUSION PUEDE SACAR?.
 
-<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/5406ce36-6e11-45d9-9a33-a64f8fa382e2" />
+<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/ba5d9cff-85a2-4dd4-a55f-e6bb3e601a5c" />
 
 *Conclusiones:*
 
--  El modelo no comete muchos errores: el costo se mantiene por debajo de 15 en todas las épocas, lo cual es bajo considerando que hay 150 muestras.
-  
-- Hay fluctuaciones visibles: el número de errores sube y baja en distintas épocas, lo que indica que el modelo está ajustando su frontera de decisión constantemente.
-  
-- No hay una tendencia clara de descenso sostenido, lo que sugiere que el modelo está reentrenándose desde cero en cada época
+- Se puede obaservar que el costo empieza alto (alrededor de 15)  y disminuye progresivamente hasta estabilizarse cerca de 0. A partir de esto podemos decudir que el modelo esta aprendiendo correctamente.
 
-
+- La reducción constante del costo implica que el modelo esta ajustando sus parámetros para minimizar errores.
+  
 3. GRAFIQUE EL ACCURACY VS LAS EPOCHS, QUE CONCLUSION PUEDE SACAR?
 
-<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/a8dccfe5-c12a-4da3-82ca-e63d84de982b" />
+<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/d292988b-c3cd-4150-9cee-c1f696772715" />
 
 *Conclusiones:*
 
-* Inicio (épocas 0–30): El accuracy comienza por debajo de 0.92, lo que indica que el modelo aún está aprendiendo y cometiendo errores significativos.
+- El accuracy comienza cer de 0.88 y sube rápidamente, estabilizandose entre 0.92 y 0.98 con algunos picos cercanos a 1. Esto implica que el modelo esta clasificando correctamente.
 
-* Rápido ascenso (épocas 30–60): Hay una mejora abrupta: el modelo aprende rápidamente a clasificar mejor y supera el 96% de precisión.
-
-* Estabilización (épocas 60–300): El accuracy se mantiene alto, entre 0.96 y 1.00, con pequeñas fluctuaciones. Esto sugiere que el modelo ha convergido y está generalizando bien.
+- Alrededor de la epoca 200, la precision se mantiene estable , lo que sigiere que el modelo ha alcanzado su capacidad optima.
 
 4. PRESENTE LAS METRICAS DE CLASIFICACION CON SU RESPECTIVA INTERPRETACION (ACCURACY, F1-SCORE, MATRIZ DE CONFUSION, SENSIBILIDAD Y ESPECIFICIDAD).
 
@@ -158,7 +153,7 @@ Este método funciona de la siguiente manera:
 
 *Análisis de las metricas obtenidas en nuestro modelo*
 
-<img width="653" height="445" alt="image" src="https://github.com/user-attachments/assets/6d3ac0ec-6bda-4811-9935-5c80209454fe" />
+<img width="686" height="403" alt="image" src="https://github.com/user-attachments/assets/2284b1d2-0b64-4bd4-877a-94800fe23ad5" />
 
 5. POR QUÉ SON TAN DIFERENTES  ESTAS METRICAS RESPECTO A LAS DE REGRESIÓN?
 
